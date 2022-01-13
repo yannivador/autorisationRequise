@@ -4,7 +4,7 @@ function fonction() {
 	var age2 = document.getElementById("nombre").value;
 
 	if (isNaN(age2)) {
-		alert('ce n\'est pas un chiffre');
+		alert('Vous devez entrer un nombre');
 	}
 	else {
 		if (age2 < 18) {
